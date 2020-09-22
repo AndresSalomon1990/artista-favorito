@@ -65,7 +65,8 @@ main iframe {
 
 main h2 {
     font-family: 'Shrikhand', cursive;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
+    width: fit-content;
 }
 
 main h2:hover {
@@ -83,6 +84,7 @@ main ul li {
     list-style: none;
     margin-left: -1%;
     color: rgb(185, 160, 126);
+    width: fit-content;
 }
 
 main ul li span {
@@ -91,7 +93,7 @@ main ul li span {
 }
 
 main ul li:hover {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 @keyframes rainbow {
