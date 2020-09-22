@@ -3,13 +3,12 @@
     font-family: 'Bungee', cursive;
   }
 
-html {
+html, body {
     font-size: 16px;
-}
-
-body {
+    height: auto;
+    width: auto;
     margin: 0;
-  }
+}
   
 /* nav bar */
 nav {
