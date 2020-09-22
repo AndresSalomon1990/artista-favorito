@@ -82,10 +82,12 @@ main ul li {
     font-size: 0.8rem;
     list-style: none;
     margin-left: -1%;
+    color: rgb(185, 160, 126);
 }
 
 main ul li span {
   font-size: 0.7rem;
+  color: #ddd;
 }
 
 main ul li:hover {
