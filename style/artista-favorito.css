@@ -77,10 +77,6 @@ main h2:hover {
     animation: rainbow 2s ease-in-out infinite alternate;
 }
 
-main h3 {
-  margin-top: 20%;
-}
-
 main ul li {
     text-decoration: none;
     font-size: 0.8rem;
@@ -89,7 +85,11 @@ main ul li {
 }
 
 main ul li span {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+}
+
+main ul li:hover {
+  font-size: 1rem;
 }
 
 @keyframes rainbow {
