@@ -78,17 +78,18 @@ main h2:hover {
 }
 
 main h3 {
-  margin-top: 80px;
+  margin-top: 20%;
 }
 
 main ul li {
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     list-style: none;
+    margin-left: -1%;
 }
 
 main ul li span {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 @keyframes rainbow {
