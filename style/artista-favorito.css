@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+  }
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+  }
+  
+/* nav bar */
+nav {
+    overflow: hidden;
+    /*position: fixed; fijar la nav bar
+    top: 0;
+    width: 100%;*/
+    text-align: center;
+    background-image: linear-gradient(gray, black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8%;
+  }
+
+/* links */
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+/* links hover */
+nav a:hover {
+    background-color: rgb(212, 209, 205);
+    color: black;
+  }
+
+/* main */
+main {
+    /*margin-top: 30px; /* para evitar el overlay con la nav bar fixed*/
+    background-color: #ddd;
+    padding: 10px;
+    height: 90%;
+    background-image: url(../res/dark-side-of-the-moon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ddd;
+  }
+
+main section {
+    text-align: center;
+}
+
+main iframe {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    height: 2%;
+}
+
+main h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;  
+}
+
+main h2:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: rainbow 2s ease-in-out infinite alternate;
+}
+
+@keyframes rainbow {
+    to {background-position: 200%;}
+}
+
+main p {
+      width: 30%;
+      color: rgb(185, 160, 126);
+      font-size: 0.8rem;
+  }
+
+/* footer */
+footer {
+    background-image: linear-gradient(black, gray);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3.56%;
+    text-align: center;
+  }
+
+footer p {
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+footer a:hover {
+    font-size: 0.7rem;
+    color: rgb(185, 160, 126);
+}
+
